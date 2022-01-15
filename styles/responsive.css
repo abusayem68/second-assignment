@@ -1,0 +1,106 @@
+/* Responsive CSS */
+
+@media only screen and (max-width: 992px){
+    .logo{
+        font-size: 16px;
+    }
+    .prebook-btn{
+        margin-top: 20px;
+    }
+    .hero-area.container{
+        flex-direction: column-reverse;
+        gap: 14px;
+    }
+    .full-width{
+        width: 90%;
+        text-align: center;
+    }
+    .banner{
+        background-position: center;
+    }
+    .banner img{
+        width: 340px;
+        height: 314px;
+    }
+    .heading-text h2{
+        font-size: 38px;    
+        line-height: 42px;
+    }
+    .companies-logo{
+        margin: 50px 0;
+    }
+    .inner-companies-logo{
+        width: 80%;
+        gap: 52px;
+    }
+    .company-logo Img{
+        width: 52px;
+        height: 16px;
+    }
+    .menu-item ul li a{
+        font-size: 14px;
+    }
+    .menu-item ul{
+        gap: 26px;
+    }
+    .products-item{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media only screen and (max-width: 688px){
+    .container{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .menu-item{
+        display: none;
+    }
+    .hero-area.container{
+        flex-direction: column-reverse;
+        gap: 14px;
+    }
+    .full-width{
+        width: 90%;
+        text-align: center;
+    }
+    .banner{
+        background-position: center;
+    }
+    .banner img{
+        width: 202px;
+        height: 190px;
+    }
+    .heading-text h2{
+        font-size: 28px;    
+        line-height: 42px;
+    }
+    .heading-text p{
+        font-size: 14px;    
+        line-height: 21px;
+        margin: 16px 0;
+    }
+    .companies-logo{
+        margin: 50px 0;
+    }
+    .inner-companies-logo{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 32px;
+        padding: 5px 0;
+        justify-content: center;
+    }
+    .company-logo Img{
+        width: 52px;
+        height: 16px;
+    }
+    .products-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
